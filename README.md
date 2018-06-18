@@ -3,7 +3,7 @@ Tooltip 的預覽生成工具。
 
 👉 [開始瀏覽](https://remakeaonteam.github.io/tooltip-generator/)
 
-![Image](https://i.imgur.com/A8rXHa3.png)
+![Image](https://i.imgur.com/54FCBAJ.png)
 
 ## 標籤說明
 
