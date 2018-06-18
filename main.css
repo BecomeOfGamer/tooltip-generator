@@ -1,0 +1,90 @@
+html,
+body {
+    margin: 0;
+    padding: 1rem 4rem;
+    font-family: "Microsoft YaHei UI", "Microsoft Yahei", "PingFang SC", "Lantinghei SC", "Hiragino Sans GB", "WenQuanYi Micro Hei", "WenQuanYi Zen Hei", "Noto Sans CJK SC", "Microsoft JhengHei UI", "Microsoft JhengHei", "PingFang TC", "Lantinghei TC", "Noto Sans CJK TC", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    letter-spacing: 0.4px;
+    background-color: #eee;
+}
+
+h1 {
+    text-align: center;
+}
+
+footer {
+    position: absolute;
+    bottom: 2rem;
+    left: 45%;
+    right: 45%;
+}
+
+textarea {
+    width: 100%;
+    padding: 1rem;
+    background-color: #1D1F20;
+    color: #eee;
+    font-size: 1.2rem;
+    border-radius: 6px;
+    letter-spacing: 1px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.row {
+    display: flex;
+}
+
+.col {
+    flex: 1;
+}
+
+.tag-info {
+    border-collapse: collapse;
+    background-color: rgba( 0, 0, 0, .9);
+    color: #eee;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.tag-info th {
+    padding: 0.6rem;
+}
+
+.tag-info td {
+    padding: 0.6rem;
+}
+
+.tag-info td:first-child {
+    color: #bbb;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 1380px) {
+    html,
+    body {
+        padding: 0.5rem;
+    }
+    footer {
+        position: relative;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin-top: 1rem;
+        text-align: center;
+    }
+    textarea {
+        max-width: 600px;
+    }
+    .container {
+        text-align: center;
+    }
+    .row {
+        display: block;
+    }
+    .tag-info {
+        margin: 0 auto;
+    }
+}

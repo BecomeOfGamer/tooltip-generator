@@ -1,0 +1,53 @@
+num {
+    margin: 0 2px;
+    color: #FBFE01;
+}
+
+
+/* 註解 */
+
+comment {
+    margin: 0 2px;
+    color: #BF1A20;
+}
+
+
+/* 唯一 */
+
+unique {
+    /*  display: block; */
+    margin-top: 1rem;
+    color: #FF3CFE;
+}
+
+
+/* 重點 */
+
+heavy {
+    margin: 0 2px;
+    color: #FBFE01;
+}
+
+
+/* 力量附加 */
+
+str {
+    margin: 0 4px;
+    color: #e9290f;
+}
+
+
+/* 敏捷附加 */
+
+agi {
+    margin: 0 2px;
+    color: #6a9c78;
+}
+
+
+/* 智慧附加 */
+
+int {
+    margin: 0 2px;
+    color: #0074e4;
+}

@@ -1,0 +1,120 @@
+<!--
+	              ,,))))))));,
+	           __)))))))))))))),
+	\|/       -\(((((''''((((((((.
+	-*-==//////((''  .     `)))))),
+	/|\      ))| o    ;-.    '(((((                                  ,(,
+	         ( `|    /  )    ;))))'                               ,_))^;(~
+	            |   |   |   ,))((((_     _____------~~~-.        %,;(;(>';'~
+	            o_);   ;    )))(((` ~---~  `::           \      %%~~)(v;(`('~
+	                  ;    ''''````         `:       `:::|\,__,%%    );`'; ~
+	                 |   _                )     /      `:|`----'     `-'
+	           ______/\/~    |                 /        /
+	         /~;;.____/;;'  /          ___--,-(   `;;;/
+	        / //  _;______;'------~~~~~    /;;/\    /
+	       //  | |                        / ;   \;;,\
+	      (<_  | ;                      /',/-----'  _>
+	       \_| ||_                     //~;~~~~~~~~~
+	           `\_|                   (,~~
+	                                   \~\
+	                                    ~~
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Tooltip Generator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="base.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="tooltip.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+</head>
+
+<body>
+    <h1>🤖 Tooltip Generator 🤖</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h3>提示訊息預覽：</h3>
+                <div class="tooltip">
+                    <div class="tool">
+                        <div class="tip header">移形之體</div>
+                        <div id="tmplTooltip" class="tip"></div>
+                    </div>
+                </div>
+                <br />
+                <br />
+                <h3>標籤說明：</h3>
+                <table class="tag-info">
+                    <tr>
+                        <th>標籤</th>
+                        <th>顏色</th>
+                        <th>用途</th>
+                    </tr>
+                    <tr>
+                        <td>&lt;num&gt;</td>
+                        <td>
+                            <num>#FBFE01</num>
+                        </td>
+                        <td>數值</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;comment&gt;</td>
+                        <td>
+                            <comment>#BF1A20</comment>
+                        </td>
+                        <td>註解</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;unique&gt;</td>
+                        <td>
+                            <unique>#FF3CFE</unique>
+                        </td>
+                        <td>唯一</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;heavy&gt;</td>
+                        <td>
+                            <heavy>#FBFE01</heavy>
+                        </td>
+                        <td>重點</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;str&gt;</td>
+                        <td>
+                            <str>#e9290f</str>
+                        </td>
+                        <td>力量附加</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;agi&gt;</td>
+                        <td>
+                            <agi>#6a9c78</agi>
+                        </td>
+                        <td>敏捷附加</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;int&gt;</td>
+                        <td>
+                            <int>#0074e4</int>
+                        </td>
+                        <td>智慧附加</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="col">
+                <h3>在這裡輸入樣板：</h3>
+                <textarea id="txtTooltip" cols="80" rows="20">菲歐拉向前戳刺一個敵方目標，造成<num>70</num><str>(+11)</str>物理傷害並附帶命中觸發效果。優先攻擊<strong>破綻</strong>和能夠擊殺的目標。<br /><br />如果這個技能擊中敵方目標，會返回<num>60%</num>的領卻時間。<br /><br /><unique>只能攻擊異性。</unique>
+                        </textarea>
+            </div>
+        </div>
+    </div>
+    <footer>
+        RemakeAONTeam
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>
